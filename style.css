@@ -1,3 +1,57 @@
-header{
+body{
     
+    height: 100vh;
+    background-image: url(./image/fonds-marins.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+header{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color:aliceblue;
+    font-family:cursive;
+    font-size:large;
+    text-align: justify;
+}
+a{
+    color: black;
+    width:fit-content;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:aqua;
+    text-decoration: none;
+}
+a:hover{
+    transition: ease 0.5s;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.citation{
+    font-style: italic;
+    text-align: center;
+}
+.accueil{
+    
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
 }
